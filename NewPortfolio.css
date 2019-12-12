@@ -17,11 +17,13 @@
 .navbar {
     color: white;
     font-family: "Source Code Pro", monospace;
+    font-size: 1.5rem;
     /* font-weight: bold; */
 }
 
 .lead {
     font-family: "Source Code Pro", monospace;
+    font-size: 2rem;
 }
 
 .img-fluid {
@@ -38,17 +40,49 @@
 }
 
 #aboutParagraph {
-    color: white;
+    color: black;
     font-family:"Source Code Pro", monospace;
     font-size: 1.25rem;
 }
 
 #Projects {
-    background-color: rgb(34, 26, 41);
-    background-image: linear-gradient(rgba(226, 43, 195, 0.637),rgb(34, 26, 41));
+    background-color: rgb(130, 67, 185);
+    background-image: linear-gradient(rgba(226, 43, 195, 0.637),rgb(131, 6, 241));
+}
+
+@media only screen and (max-width: 700px ) {
+    #Projects {
+        height: 1200px;
+    }
 }
 
 #projectsHeader {
+    margin-top: 75px;
+    color:rgb(226, 43, 195) ;
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+
+
+#project {
+    font-weight: bold;
+    font-family: "Source Code Pro", monospace;
+    /* font-size: 1.75rem; */
+}
+
+#projectDescription {
+    font-family: "Source Code Pro", monospace;
+    /* font-size: 1.25rem; */
+}
+
+#Skills {
+    background-color: rgb(130, 67, 185);
+    background-image: linear-gradient(rgb(131, 6, 241), rgba(226, 43, 195, 0.637));
+}
+
+#skillsHeader {
     margin-top: 75px;
     color:rgb(226, 43, 195) ;
     font-family: "Source Code Pro", monospace;
