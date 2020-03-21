@@ -50,18 +50,25 @@
     background-image: linear-gradient(rgba(226, 43, 195, 0.637),rgb(131, 6, 241));
 }
 
-@media only screen and (max-width: 700px ) {
+@media  (max-width: 700px ) {
     #Projects {
-        height: 1200px;
+        height: 1300px !important;
     }
 }
 
 #projectsHeader {
     margin-top: 75px;
+    margin-bottom: 100px;
     color:rgb(226, 43, 195) ;
     font-family: "Source Code Pro", monospace;
     font-weight: bold;
     font-size: 4rem;
+}
+
+@media  (max-width: 700px ) {
+    #projectsHeader {
+        margin-bottom: 75px;
+    }
 }
 
 
@@ -69,12 +76,12 @@
 #project {
     font-weight: bold;
     font-family: "Source Code Pro", monospace;
-    /* font-size: 1.75rem; */
+    font-size: 1.75rem; 
 }
 
 #projectDescription {
     font-family: "Source Code Pro", monospace;
-    /* font-size: 1.25rem; */
+    font-size: 1.25rem; 
 }
 
 #Skills {
@@ -82,10 +89,49 @@
     background-image: linear-gradient(rgb(131, 6, 241), rgba(226, 43, 195, 0.637));
 }
 
+@media  (max-width: 700px ) {
+    #Skills {
+        height: 2200px !important;
+    }
+}
+
 #skillsHeader {
     margin-top: 75px;
+    margin-bottom: 100px;
     color:rgb(226, 43, 195) ;
     font-family: "Source Code Pro", monospace;
     font-weight: bold;
     font-size: 4rem;
 }
+
+@media  (max-width: 700px ) {
+    #skillsHeader {
+        margin-bottom: 75px;
+    }
+}
+
+@media  (max-width: 700px ) {
+    #Contact {
+        height: 1200px !important;
+    }
+}
+
+#contactHeader {
+    margin-top: 75px;
+    margin-bottom: 100px;
+    color: rgb(159, 26, 236);
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+@media  (max-width: 700px ) {
+    #contactHeader {
+        margin-bottom: 75px;
+    }
+}
+
+#footer {
+    background-color: rgba(226, 43, 195, 0.637);
+}
+
